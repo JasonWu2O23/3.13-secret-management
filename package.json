@@ -1,5 +1,5 @@
 {
-  "name": "6m-cloud-3.12-continuous-deployment-serverless",
+  "name": "3.13-secret-management",
   "version": "1.0.0",
   "description": "To set up a continuous integration and continuous deployment (CI/CD) pipeline for a Node.js application that is deployed on a serverless platform.",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JasonWu2O23/6m-cloud-3.12-continuous-deployment-serverless.git"
+    "url": "git+https://github.com/JasonWu2O23/3.13-secret-management.git"
   },
   "author": "jinqing",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JasonWu2O23/6m-cloud-3.12-continuous-deployment-serverless/issues"
+    "url": "https://github.com/JasonWu2O23/3.13-secret-management/issues"
   },
-  "homepage": "https://github.com/JasonWu2O23/6m-cloud-3.12-continuous-deployment-serverless#readme",
+  "homepage": "https://github.com/JasonWu2O23/3.13-secret-management#readme",
   "dependencies": {
     "serverless": "^3.36.0"
   },
