@@ -43,7 +43,7 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: ${{ vars.REGION }}
+        AWS_REGION: ${{ vars.AWS_REGION }}
 
   retrieve_secret:
     runs-on: ubuntu-latest
@@ -54,7 +54,7 @@ jobs:
         with:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ vars.REGION }}
+          AWS_REGION: ${{ vars.AWS_REGION }}
 
       - name: Get Secret Object
         run: |
@@ -78,7 +78,7 @@ jobs:
           with:
             AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
             AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-            AWS_REGION: ${{ vars.REGION }}
+            AWS_REGION: ${{ vars.AWS_REGION }}
       
             # Firstly, insert your parameter in AWS Systems Manager > Parameter Store
             # Then, you can retrieve the parameters using aws ssm get-parameter command
