@@ -1,4 +1,4 @@
-service: jinqing-node-app
+service: jinqing-secret-management
 frameworkVersion: '3'
 
 provider:
