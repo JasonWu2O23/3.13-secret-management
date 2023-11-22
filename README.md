@@ -1,5 +1,5 @@
 # References
-https://raw.githubusercontent.com/luqmannnn/aws-secret/main/README.md
+https://github.com/luqmannnn/aws-secret/blob/main/README.md
 
 # Managing secrets and parameters in AWS
 
